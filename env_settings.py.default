@@ -1,4 +1,8 @@
 #!/usr/bin/env python
 
-settings = {
+import os
+
+SETTINGS = {
+    'project_dir': '{}/projects'.format(os.getenv('HOME')),
+    'log_dir': '{}/log'.format(os.getenv('HOME')),
 }
